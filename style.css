@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;500&display=swap');
+
+.hrstyle{
+    border-top: 2px solid gold;
+}
+.Presentazione{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.h1style{
+    color: black;
+    width: -100px;
+    left: -100px;
+    
+
+
+}
+.bodyindex{
+    background: lightslategray;
+
+}
+
+.lista_competenze{
+    margin: 0px;
+    padding: 40px;
+    list-style-type: disc;
+    list-style-position: inside;
+    width: 100%;
+}
+
+.mainindex{
+    
+}
+
+.headerindex{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #272727;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+
+
+
+
+

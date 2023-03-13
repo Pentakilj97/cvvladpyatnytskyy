@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;500&display=swap');
 
-.hrstyle{
-    border-top: 2px solid gold;
+
+.html_mods{
+    text-align: center;
 }
-.Presentazione{
+.hrstyle{
+    border-top: 2px solid lightseagreen;
+}
+.Paragrafo{
     font-family: 'Noto Sans', sans-serif;
 }
 
@@ -37,17 +41,38 @@
   
 
 .detailsstyle{
-    padding: 2px;
-    width: 100%;
-    background-color: gold;
-    border: none;
-    box-shadow: 2px 3px 4px black;
-    cursor: pointer;
-
+    width: 200px;
+    display: inline;
 }
-  
 
+.summarystyle{
+    padding: 2px 2px;
+    width: auto;
+    background-color: lightseagreen;
+    border: none;
+    box-shadow: 3px 2px 3px black;
+    cursor: pointer;
+}
 
+.div_class1{
+    position: relative;
+    display: block;
+    height: auto;
+    width: auto;
+}
 
+.div_class2{
+    height: 19px;
+    background-color: blueviolet;
+    position: absolute;
+    margin-left: 300px;    
+    top: 100px;
+}
 
-
+.div_class3{
+    height: 19px;
+    background-color: blueviolet;
+    position: absolute;
+    margin-right: 300px;  
+    top: 100px;
+}

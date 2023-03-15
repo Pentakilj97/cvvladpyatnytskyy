@@ -21,7 +21,10 @@
 }
 .bodyindex{
     background: lightslategray;
-
+    max-width: 800px;
+    margin: auto;
+    border: 10px solid red;
+    
 }
 
 .lista_competenze{
@@ -55,33 +58,22 @@
 }
 
 .div_class1{
-    border: 1px solid none;
-    flex-grow: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    border: 1px solid red;
 
+}
 .div_class2{
-    border: 1px solid none;
-    flex-grow: 2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    border: 1px solid blue;
+    max-width: 30%;
 }
 
 .div_class3{
-    border: 1px solid none;
-    flex-grow: 2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    border: 1px solid blue;
+    max-width: 30%;
+    
 }
 
 .div_class4{
-    border: 1px solid none;
-    flex-grow: 2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    border: 1px solid blue;
+    max-width: 30;
+
 }

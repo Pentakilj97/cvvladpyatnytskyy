@@ -15,17 +15,26 @@
     color: black;
     width: -100px;
     left: -100px;
+    overflow: hidden;
+
     
 
 
 }
-.bodyindex{
-    background: lightslategray;
-    max-width: 800px;
-    margin: auto;
-    border: 10px solid red;
-    
+
+.bodystyle{
+    display: grid;
+    border: 2px solid green;
+    background-color: grey;
+
 }
+.divemain{
+  display: grid;
+  row-gap: auto;
+  grid-template-columns: auto auto auto;
+  background-color: transparent;
+  padding: 1px;
+  }
 
 .lista_competenze{
     margin: 0px;
@@ -57,23 +66,43 @@
     cursor: pointer;
 }
 
-.div_class1{
-    border: 1px solid red;
+.div1{
+    background-color: transparent;
+    text-align: center;
+    padding: 2px 0;
+    font-size: auto;
+    overflow: hidden;
+
 
 }
-.div_class2{
-    border: 1px solid blue;
-    max-width: 30%;
+
+.div2{
+    background-color: transparent;
+    text-align: center;
+    padding: 2px 0;
+    font-size: auto;
+    overflow: hidden;
+
+
 }
 
-.div_class3{
-    border: 1px solid blue;
-    max-width: 30%;
-    
+.div3{
+    background-color: transparent;
+    text-align: center;
+    padding: 2px 0;
+    font-size: auto;
+    overflow: hidden;
+
+
 }
 
-.div_class4{
-    border: 1px solid blue;
-    max-width: 30;
+@media only screen and (max-width: 700px){
+    .divemain{
+        width: auto;
+        height: auto;
+        grid-template-columns:auto;
+
+   
+    }
 
 }

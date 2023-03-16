@@ -1,21 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
 .html_mods{
     text-align: center;
+    font-family: 'MuseoModerno';
+    
 }
+
 .hrstyle{
     border-top: 2px solid #98ce00;
 }
-.Paragrafo{
-    font-family: 'Noto Sans', sans-serif;
+
+.title{
+    --color-background: #001011;
+    --stroke-width: calc(2em / 16);
+    --font-size: auto;
+    --font-weight: 7;
+    --letter-spacing: calc(1em / 18);
+    box-sizing: border-box;
+    background-clip: text;
+    background-image: linear-gradient(to right, #98ce00, #6CCFF6, #757780, #6CCFF6);
+    color: var(--color-background);
+    font-size: var(--font-size);
+    font-weight: var(--font-weight);
+    letter-spacing: var(--letter-spacing);
+    padding: calc(--stroke-width / 2);
+    -webkit-text-stroke-color: transparent;
+    -webkit-text-stroke-width: var(--stroke-width);
+   
 }
+
+
+
 
 .h1style{
     color: #001011;
     width: -100px;
     left: -100px;
     overflow: hidden;
+
 
 }
 
@@ -24,21 +47,22 @@
     border: 2px solid #6CCFF6;
     background-color: #757780;
 
+
 }
 .divemain{
   display: grid;
   row-gap: auto;
   grid-template-columns: auto auto auto;
-  background-color: transparent;
+  background-color: auto #6CCFF6;
   padding: 1px;
-  }
 
+}
 .lista_competenze{
     margin: 0px;
     padding: 0px;
     list-style-type: disc;
-    list-style-position: inside;
-    width: 100%;
+    list-style-position: auto;
+    width: auto;
 }
 
 .headerindex{
@@ -63,32 +87,48 @@
     cursor: pointer;
 }
 
+
+.imgcont{
+    border: 2px solid #6CCFF6;
+    padding: 5px;
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    		clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+            
+           
+
+}
+
+
 .div1{
-    background-color: transparent;
+    background-color: #6CCFF6;
     text-align: center;
-    padding: 2px 0;
     font-size: auto;
     overflow: hidden;
+    box-shadow: 1px 1px 5px 5px #6CCFF6;
+    margin:auto;
+    
 
 
 }
 
 .div2{
-    background-color: transparent;
+    background-color: #6CCFF6;
     text-align: center;
-    padding: 2px 0;
     font-size: auto;
     overflow: hidden;
+    box-shadow: 1px 1px 5px 5px #6CCFF6;
+    margin:auto;
 
 
 }
 
 .div3{
-    background-color: transparent;
+    background-color: #6CCFF6;
     text-align: center;
-    padding: 2px 0;
     font-size: auto;
     overflow: hidden;
+    box-shadow: 1px 1px 5px 5px #6CCFF6;
+    margin:auto;
 
 
 }

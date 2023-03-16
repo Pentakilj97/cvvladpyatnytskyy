@@ -5,27 +5,24 @@
     text-align: center;
 }
 .hrstyle{
-    border-top: 2px solid lightseagreen;
+    border-top: 2px solid #98ce00;
 }
 .Paragrafo{
     font-family: 'Noto Sans', sans-serif;
 }
 
 .h1style{
-    color: black;
+    color: #001011;
     width: -100px;
     left: -100px;
     overflow: hidden;
-
-    
-
 
 }
 
 .bodystyle{
     display: grid;
-    border: 2px solid green;
-    background-color: grey;
+    border: 2px solid #6CCFF6;
+    background-color: #757780;
 
 }
 .divemain{
@@ -60,9 +57,9 @@
 .summarystyle{
     padding: 2px 2px;
     width: auto;
-    background-color: lightseagreen;
+    background-color: #6CCFF6;
     border: none;
-    box-shadow: 3px 2px 3px black;
+    box-shadow: 3px 2px 3px #001011;
     cursor: pointer;
 }
 
